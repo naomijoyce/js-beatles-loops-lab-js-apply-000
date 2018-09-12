@@ -8,12 +8,12 @@ function theBeatlesPlay (musicians, instruments){
   return statement;
 }
 
-function johnLennonFacts (){
+function johnLennonFacts (fact){
   let i = 0;
   const sayings = [];
   
-  while (i < sayings.length){
-    sayings.push(sayings[i] + "!!!");
+  while (i < fact.length){
+    sayings.push(fact[i] + "!!!");
     i++;
   } 
   return sayings;
@@ -25,7 +25,7 @@ function iLoveTheBeatles(parameter){
   do{
     love.push("I love the Beatles!");
     parameter++
-  } while( parameter < 17 );
+  } while( parameter < 15 );
   
   return love;
 }
